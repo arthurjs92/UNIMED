@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "9426d9f9-badd-42d3-8eab-ab1280fef3a6",
+		"name": "FORM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23040083"
+	},
+	"item": [
+		{
+			"name": "save response",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Arthur\",\r\n    \"cpf\": \"03348312108\",\r\n    \"telefone\": \"34998648710\",\r\n    \"email\": \"ajsantos5d@gmail.com\",\r\n    \"sexo\": \"M\",\r\n    \"dataNascimento\": \"14/10/1992\",\r\n    \"ocupacao\": \"Software Engineer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/responses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"responses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all responses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/responses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"responses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get responses by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/responses/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"responses",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update response",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Arthur Santos\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/responses/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"responses",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete response",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/responses/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"responses",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
