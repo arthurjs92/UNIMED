@@ -23,10 +23,6 @@ O projeto consiste em um formulario para cadastrar os dados do cliente e enviar 
    * Documentação com Swagger
    * Postman para documentação e teste
    * SendGrid API para envio de e-mails
-   
-## Visual do formulario
-
-![Tela inicial](images/image application.png)
 
 ## Como utilizar
 
