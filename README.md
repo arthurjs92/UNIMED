@@ -23,11 +23,16 @@ O projeto consiste em um formulario para cadastrar os dados do cliente e enviar 
    * Documentação com Swagger
    * Postman para documentação e teste
    * SendGrid API para envio de e-mails
+   
+ ## Visao do formulario
+ 
+![img](https://user-images.githubusercontent.com/88942381/215893002-9496ee6a-1938-4be1-bf4c-752a8d090045.png)
 
 ## Como utilizar
 
 * Para utilizar este projeto voce deve baixar o arquivo zipado ou clonar este repositorio.
 * Seu ambiente deve ter Java 17 instaladoe um editor de codigo como VS code ou Intellij.
+* Crie o banco de dados MySQL com o nome responses.
 * Configure a variavel de ambiente do SendGrid com a chave SENDGRID_API_KEY e o valor deve ser gerado dentro da plataforma da SendGrid.
 * Instale o pacote de Spring Boot Tools caso esteja utilizando o VS code.
 * Instale o Postman e importe o arquivo na raiz do projeto de nome postman.
