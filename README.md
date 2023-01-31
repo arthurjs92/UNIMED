@@ -26,7 +26,7 @@ O projeto consiste em um formulario para cadastrar os dados do cliente e enviar 
    
 ## Visual do formulario
 
-![Tela inicial](images/lp-web.gif)
+![Tela inicial](images/image application.png)
 
 ## Como utilizar
 
